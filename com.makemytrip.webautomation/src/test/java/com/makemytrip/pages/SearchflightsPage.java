@@ -25,7 +25,7 @@ public class SearchflightsPage extends BaseClass  {
 	
 	//Web elements or object repository
 
-	@FindBy(how=How.XPATH,using="//p[text()=\"Round trip\"]")
+	@FindBy(how=How.XPATH,using="//*[@id=\"root\"]/div/div[2]/div/div[1]/div[1]/ul/li[2]")
 	WebElement roundtripradiobutton;
 	
 	@FindBy(how=How.XPATH,using="//*[@id=\"root\"]/div/div/div[1]/div/div[2]/div/div[3]/div[1]/div[1]/div/div/div/input")
