@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse-422734412\testng-customsuite.xml</span>
+                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse--1064891704\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.makemytrip.testcases.MakeMyTripBooktestcase" hash-for-method="clickbookflight">clickbookflight</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.makemytrip.testcases.Searchflighttestcase" hash-for-method="searchflight">searchflight</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,28 +122,19 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.makemytrip.testcases.MakeMyTripBooktestcase</span>
+              <span class="class-name">com.makemytrip.testcases.Searchflighttestcase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickbookflight">
-                  </a> <!-- clickbookflight -->
-                  <span class="method-name">clickbookflight</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id=&quot;root&quot;]/div/main/div/div/div[2]/div[2]/div[5]/div/div[2]/button
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-M5VEILC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.makemytrip.pages.MakeMyTripBookPage.clickbookbtn(MakeMyTripBookPage.java:32)
-	at com.makemytrip.testcases.MakeMyTripBooktestcase.clickbookflight(MakeMyTripBooktestcase.java:45)
+                  <a name="searchflight">
+                  </a> <!-- searchflight -->
+                  <span class="method-name">searchflight</span>
+                  <div class="stack-trace">java.lang.AssertionError: multicityradiobutton did not clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.makemytrip.testcases.Searchflighttestcase.searchflight(Searchflighttestcase.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -181,7 +172,7 @@ Driver info: driver.version: RemoteWebDriver
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse-422734412\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse--1064891704\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -190,7 +181,7 @@ Driver info: driver.version: RemoteWebDriver
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.makemytrip.testcases.MakeMyTripBooktestcase&quot;/&gt;
+      &lt;class name=&quot;com.makemytrip.testcases.Searchflighttestcase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -232,14 +223,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickbookflight')
-data.setCell(0, 2, 'com.makemytrip.testcases.MakeMyTripBooktestcase')
-data.setCell(0, 3, 8966);
+data.setCell(0, 1, 'searchflight')
+data.setCell(0, 2, 'com.makemytrip.testcases.Searchflighttestcase')
+data.setCell(0, 3, 322);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 322 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -265,7 +256,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.makemytrip.testcases.MakeMyTripBooktestcase</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.makemytrip.testcases.Searchflighttestcase</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
@@ -273,12 +264,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">clickbookflight</span>
-                <span class="method-start">12047 ms</span>
+                <span class="method-name">searchflight</span>
+                <span class="method-start">11981 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=clickbookflight status=FAILURE method=MakeMyTripBooktestcase.clickbookflight()[pri:...)</span>
-                <span class="method-start">21039 ms</span>
+                <span class="method-name">tearDown([TestResult name=searchflight status=FAILURE method=Searchflighttestcase.searchflight()[pri:0, insta...)</span>
+                <span class="method-start">12313 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

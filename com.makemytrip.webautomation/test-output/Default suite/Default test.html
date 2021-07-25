@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 24 22:34:32 IST 2021</td>
+<td>Started on:</td><td>Sun Jul 25 12:32:05 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22205 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13705 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,21 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.makemytrip.testcases.MakeMyTripBooktestcase.clickbookflight()'><b>clickbookflight</b><br>Test class: com.makemytrip.testcases.MakeMyTripBooktestcase</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id=&quot;root&quot;]/div/main/div/div/div[2]/div[2]/div[5]/div/div[2]/button
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-M5VEILC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.makemytrip.pages.MakeMyTripBookPage.clickbookbtn(MakeMyTripBookPage.java:32)
-	at com.makemytrip.testcases.MakeMyTripBooktestcase.clickbookflight(MakeMyTripBooktestcase.java:45)
+<td title='com.makemytrip.testcases.Searchflighttestcase.searchflight()'><b>searchflight</b><br>Test class: com.makemytrip.testcases.Searchflighttestcase</td>
+<td><div><pre>java.lang.AssertionError: multicityradiobutton did not clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.makemytrip.testcases.Searchflighttestcase.searchflight(Searchflighttestcase.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,21 +109,12 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1066513687", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1066513687'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id=&quot;root&quot;]/div/main/div/div/div[2]/div[2]/div[5]/div/div[2]/button
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-M5VEILC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.makemytrip.pages.MakeMyTripBookPage.clickbookbtn(MakeMyTripBookPage.java:32)
-	at com.makemytrip.testcases.MakeMyTripBooktestcase.clickbookflight(MakeMyTripBooktestcase.java:45)
+</pre></div><a href='#' onClick='toggleBox("stack-trace20111564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20111564'><pre>java.lang.AssertionError: multicityradiobutton did not clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.makemytrip.testcases.Searchflighttestcase.searchflight(Searchflighttestcase.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,8 +144,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>8</td>
-<td>com.makemytrip.testcases.MakeMyTripBooktestcase@4493d195</td></tr>
+<td>0</td>
+<td>com.makemytrip.testcases.Searchflighttestcase@4493d195</td></tr>
 </table><p>
 </body>
 </html>
